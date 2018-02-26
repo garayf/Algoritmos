@@ -1,15 +1,25 @@
 #include <stdio.h>
 #include <iostream>
-int fibonacci(int n){
-    if(n==0) return 0;
-    if(n==1) return 1;
-    if(n>1) return fibonacci(n-1)+fibonacci(n-2);
-}
+
 using namespace std;
 
 int main(void) {
-    int r = fibonacci(47);
-    cout << ("res: %i",r);
+    int n,a,b;
+    int i;
+	a=1;
+    b=2;
+    
+	cout << "ingrese el numero"<< endl;
+	cin>>n;
+	
+	for(i=1;i<=n-3;i++){
+	b = a+b;
+	a = b-a;	
+		
+	}
+	
+    cout << a<<endl;
+    cout <<"el valor del overflow es de 46 "<<endl;
     // your code goes here
     return 0;
 }
