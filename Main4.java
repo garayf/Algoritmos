@@ -10,7 +10,7 @@ public class Main4{
             System.out.print("Numero: ");
             numero = sc.nextLong();
              
-        for(i=1;i<=numero-2;i++){
+        for(i=1;i<=numero-3;i++){
              
              N2 = (N1 + N2);
              N1 = (N2 - N1);
