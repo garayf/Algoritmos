@@ -17,6 +17,6 @@ public class Main4{
         }
         System.out.println("el valor " + numero + " de fibonacci es:"); 
         System.out.println(N1 + " ");
-        System.out.println("el valor que produce un overflow es 93");
+        System.out.println("el valor que produce un overflow es 162");
     }
 }
